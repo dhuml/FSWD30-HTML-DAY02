@@ -16,28 +16,92 @@
   			max-width: 900px;
   		}
 
-  	</style>
+
+		#to-do {
+			text-align: left;
+		    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		    
+		}
+
+		td, th, caption{
+		    padding: 8px;
+		    border: 1px solid #ddd;
+		}
+
+		.class th {
+		    padding-top: 12px;
+		    padding-bottom: 12px;
+		    background-color: #4CAF50;
+		    color: white;
+		}
+
+</style>
+
 
 </head>
 
 <body>
-	<table>
-		<caption>table title and/or explanatory text</caption>
+	<table id="to-do">
+		<caption>Make youself ready for Vienna</caption>
 		<thead>
 			<tr>
-				<th>What to do in Wien</th>
-				<th>Before-noon</th>
-				<th>Afternoon</th>
+				<th class="header">What to do in Wien</th>
+				<th class="header">Before-noon</th>
+				<th class="header">Afternoon</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>Shopping</td>
-				<td>Mariehilfestrasse</td>
+				<td>
+					<dl>
+						<dt>Mariehilfer Stra&szlig;e</dt>
+						<dt>Goldenes Quartier</dt>
+						<dt>Kohlmarkt</dt>
+						<dt>Museum Shops</dt>
+					</dl>
+				</td>
 				<td>Christkindlmärkte</td>
 			</tr>
 			<tr>
 				<td>Seightseeing</td>
+				<td>
+					<dl>
+						<dt>Churches</dt>
+						<dt>Prater</dt>
+						<dt>Palaces</dt>
+						<dt>Kahlenberg</dt>
+					</dl>
+				</td>
+				<td>
+					<dl>
+						<dt>Exhibitions</dt>
+						<dt>Opera</dt>
+						<dt>Tours</dt>
+						<dt>Discover</dt>
+					</dl>
+				</td>		
+			</tr>
+			<tr>
+				<td>Fun</td>
+				<td>
+					<dl>
+						<dt>Prater</dt>
+						<dt>Restaurants</dt>
+						<dt>Museum</dt>
+						<dt>Therme</dt>
+					</dl>
+				</td>
+				<td>
+					<dl>
+						<dt>Night Clubs</dt>
+						<dt>Food Stands</dt>
+						<dt>Tours</dt>
+						<dt>Discover</dt>
+					</dl>
+				</td>									
 			</tr>
 		</tbody>
 	</table>
