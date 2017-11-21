@@ -39,6 +39,10 @@
 			color: black;
 		}
 
+		caption {
+			margin-bottom: 5px;
+		}
+
 		.main-title {
 			padding: 30px;
 		}
@@ -68,6 +72,15 @@
 		    width: 100%;
 		}
 
+		#dom, #schon {
+			float: left;
+			padding-right: 10px;
+		}
+
+		ol {
+			padding-left: 12px;
+		}
+
 		td, th, caption{
 		    border: 1px solid #ddd;
 		}
@@ -89,7 +102,7 @@
 <body>
 
 	<header>
-			<h1 class="main-title">Vienna</h1>
+			<h1 class="main-title"><sub>Austria</sub><br>VIENNA<p><em>Is imperial history</p></h1>
 			<nav>
 				<a class="homepage" href="index.html">HOMEPAGE</a>
 				<a class="homepage" href="to-do.html">WHAT DO DO</a>
@@ -102,14 +115,9 @@
 	<main>
 
 		<div class="text_content">
-		<section>
-			<p>Vienna (/viˈɛnə/ (About this sound listen); German: Wien, pronounced [viːn] (About this sound listen)) is the capital and largest city of Austria and one of the nine states of Austria. Vienna is Austria's primary city, with a population of about 1.8 million (2.6 million within the metropolitan area, nearly one third of Austria's population), and its cultural, economic, and political centre. It is the 7th-largest city by population within city limits in the European Union. Until the beginning of the 20th century, it was the largest German-speaking city in the world, and before the splitting of the Austro-Hungarian Empire in World War I, the city had 2 million inhabitants. Today, it has the second largest number of German speakers after Berlin. Vienna is host to many major international organizations, including the United Nations and OPEC. The city is located in the eastern part of Austria and is close to the borders of the Czech Republic, Slovakia, and Hungary. These regions work together in a European Centrope border region. Along with nearby Bratislava, Vienna forms a metropolitan region with 3 million inhabitants.[citation needed] In 2001, the city centre was designated a UNESCO World Heritage Site. In July 2017 it was moved to the list of World Heritage in Danger.</p>
-		
-		</section>
 
-		<article>
-			<h2>Culture</h2>
-			<h3>Music, theatre an opera</h3>
+		<section>
+			<h2>Some Suggestions</h2>
 
 			<table id="to-do">
 				<caption>Make youself ready for Vienna</caption>
@@ -124,27 +132,27 @@
 					<tr>
 						<td>Shopping</td>
 						<td>
-							<dl>
-								<dt>Mariehilfer Stra&szlig;e</dt>
-								<dt>Goldenes Quartier</dt>
-								<dt>Kohlmarkt</dt>
-								<dt>Museum Shops</dt>
-							</dl>
+							<ol>
+								<li>Mariehilfer Stra&szlig;e</li>
+								<li>Goldenes Quartier</li>
+								<li>Kohlmarkt</li>
+								<li>Museum Shops</li>
+							</ol>
 						</td>
 						<td>Christkindlmärkte</td>
 					</tr>
 					<tr>
 						<td>Seightseeing</td>
 						<td>
-							<dl>
-								<dt>Churches</dt>
-								<dt>Prater</dt>
-								<dt>Palaces</dt>
-								<dt>Kahlenberg</dt>
-							</dl>
+							<ol>
+								<li>Churches</li>
+								<li>Prater</li>
+								<li>Palaces</li>
+								<li>Kahlenberg</li>
+							</ol>
 						</td>
 						<td>
-							<ol>	
+							<ol start="1" type="1">	
 								<li>Exhibitions</li>
 								<li>Opera</li>
 								<li>Tours</li>
@@ -172,19 +180,22 @@
 						</td>									
 					</tr>
 				</tbody>
-	</table>
-			<p><img class="strauss" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vienna_-_Johann_Strauss_Monument_in_Stadt_Park_-_4572.jpg/220px-Vienna_-_Johann_Strauss_Monument_in_Stadt_Park_-_4572.jpg"> Musical luminaries including Wolfgang Amadeus Mozart, Joseph Haydn, Ludwig van Beethoven, Ferdinand Ries, Franz Schubert, Johannes Brahms, Gustav Mahler, Robert Stolz, and Arnold Schoenberg have worked there. </p>
+			</table>
 
-			<p>Art and culture had a long tradition in Vienna, including theatre, opera, classical music and fine arts. The Burgtheater is considered one of the best theatres in the German-speaking world alongside its branch, the Akademietheater. The Volkstheater Wien and the Theater in der Josefstadt also enjoy good reputations. There is also a multitude of smaller theatres, in many cases devoted to less mainstream forms of the performing arts, such as modern, experimental plays or cabaret.</p>
+		</section> 
 
+		<article>
+			<h2>Schloss Schönbrunn</h2>
+			<p><img id="schon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_1%29.jpg/266px-Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_1%29.jpg">The Habsburgs' overwhelmingly opulent summer palace is now a Unesco World Heritage site. Of the palace's 1441 rooms, 40 are open to the public; the Imperial Tour takes you into 26 of these, including the private apartments of Franz Josef and Sisi, while the Grand Tour covers all 40 and includes the precious 18th-century interiors from the time of Maria-Theresia. These mandatory tours are done with an audio guide or, for an additional charge, a tour guide.</p>
+			<p>Because of the popularity of the palace, tickets are stamped with a departure time and there may be a gap of an hour or more, so buy your ticket straight away and then explore the gardens, or book and buy for a specific time online.</p>
+
+			<h2>Stephansdom</h2>
+			<p><img id="dom" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wien_-_Stephansdom_%281%29.JPG/440px-Wien_-_Stephansdom_%281%29.JPG" alt="stephansdom image" width="100"> Vienna’s Gothic masterpiece Stephansdom – or Steffl (Little Stephan), as it’s ironically nicknamed – is Vienna's pride and joy. A church has stood here since the 12th century, and reminders of this are the Romanesque Riesentor (Giant Gate) and Heidentürme. From the exterior, the first thing that will strike you is the glorious tiled roof, with its dazzling row of chevrons and Austrian eagle. Inside, the magnificent Gothic stone pulpit presides over the main nave, fashioned in 1515 by Anton Pilgrim.</p>
+
+			<p>
 		
-		</article>
 		</div>
 
-
-
-
-		
 
 		<aside>
 			<div>
